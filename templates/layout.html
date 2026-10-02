@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="$lang">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title</title>
+<meta name="description" content="$description">
+<link rel="canonical" href="$canonical">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="$og_type">
+<meta property="og:site_name" content="$site_name">
+<meta property="og:title" content="$title">
+<meta property="og:description" content="$description">
+<meta property="og:url" content="$canonical">
+$og_image
+$verification
+<link rel="stylesheet" href="${root}style.css">
+<link rel="icon" href="${root}favicon.svg" type="image/svg+xml">
+$head_extra
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="${root}">$site_name</a>
+    <nav><a href="${root}">All entries</a><a href="${root}about.html">About</a></nav>
+  </div>
+</header>
+<main class="wrap">
+$content
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="disclaimer"><strong>Disclaimer:</strong> $disclaimer</p>
+    <p>All photos are original and taken in person. Product names and trademarks belong to their owners. This site is not affiliated with any manufacturer or retailer.</p>
+  </div>
+</footer>
+</body>
+</html>

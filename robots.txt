@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jmorrison-51.github.io/random-info-you-cant-find-online/sitemap.xml

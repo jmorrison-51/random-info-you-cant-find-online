@@ -1,0 +1,26 @@
+# Unedited photos: may contain GPS/EXIF and unredacted details. Never commit.
+originals/
+*.heic
+*.HEIC
+*.dng
+*.raw
+
+# Secrets / local config
+.env
+.env.*
+*.pem
+*.key
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS / editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json

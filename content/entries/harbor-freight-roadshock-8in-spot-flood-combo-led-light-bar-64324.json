@@ -18,6 +18,20 @@
     "Roadshock",
     "Light Bars"
   ],
+  "beam": [
+    {
+      "distance_ft": 30,
+      "lux": 110
+    },
+    {
+      "distance_ft": 350,
+      "lux": 1
+    },
+    {
+      "distance_ft": 600,
+      "lux": 0.25
+    }
+  ],
   "summary": "Combo beam pattern chart and specs from the Roadshock 8 in. light bar box (SKU 64324): 110 lx at 30 ft, 1 lx at 350 ft, 0.25 lx at 600 ft.",
   "body": [
     "This is the beam pattern chart printed on the retail box of the Harbor Freight Roadshock 8 in. Spot/Flood Combo LED Light Bar, item 64324. Harbor Freight's product page lists the lumens and the 696 ft. range, but it doesn't show this chart or any lux readings.",
@@ -25,18 +39,6 @@
     "The box also lists lumens, beam distance, color temperature, voltage, and wattage (below). Those match the product page."
   ],
   "specs": [
-    [
-      "Lux at 30 ft (chart)",
-      "110 lx"
-    ],
-    [
-      "Lux at 350 ft (chart)",
-      "1 lx"
-    ],
-    [
-      "Lux at 600 ft (chart)",
-      "0.25 lx"
-    ],
     [
       "Lumens",
       "1440"

@@ -17,6 +17,20 @@
     "Beam Patterns",
     "Roadshock"
   ],
+  "beam": [
+    {
+      "distance_ft": 30,
+      "lux": 25
+    },
+    {
+      "distance_ft": 160,
+      "lux": 1
+    },
+    {
+      "distance_ft": 300,
+      "lux": 0.25
+    }
+  ],
   "summary": "Flood beam pattern chart, specs, and dimensions from the Roadshock 3 in. LED Floodlight box (SKU 64322): 25 lx at 30 ft, 1 lx at 160 ft, 0.25 lx at 300 ft.",
   "body": [
     "This is the flood beam pattern chart printed on the retail box of the Harbor Freight Roadshock 3 in. LED Floodlight, item 64322. Harbor Freight's product page lists 965 lumens and a 335 ft. range, but it doesn't show this chart or any lux readings.",
@@ -24,18 +38,6 @@
     "The dimension drawing shows a 3 in. wide, 3 in. deep housing that is 3 in. tall, or 3.5 in. including the mounting bracket. The box also lists lumens, beam distance, color temperature, voltage, and wattage (below)."
   ],
   "specs": [
-    [
-      "Lux at 30 ft (chart)",
-      "25 lx"
-    ],
-    [
-      "Lux at 160 ft (chart)",
-      "1 lx"
-    ],
-    [
-      "Lux at 300 ft (chart)",
-      "0.25 lx"
-    ],
     [
       "Lumens",
       "965"

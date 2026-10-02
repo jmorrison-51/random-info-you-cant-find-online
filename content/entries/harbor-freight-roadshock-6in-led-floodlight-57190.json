@@ -17,6 +17,20 @@
     "Beam Patterns",
     "Roadshock"
   ],
+  "beam": [
+    {
+      "distance_ft": 32,
+      "lux": 15
+    },
+    {
+      "distance_ft": 127,
+      "lux": 1
+    },
+    {
+      "distance_ft": 252,
+      "lux": 0.25
+    }
+  ],
   "summary": "Flood beam pattern chart from the Roadshock 6 in. LED Floodlight box (SKU 57190): 15 lx at 32 ft, 1 lx at 127 ft, 0.25 lx at 252 ft.",
   "body": [
     "This is the flood beam pattern chart printed on the retail box of the Harbor Freight Roadshock 6 in. LED Floodlight, item 57190. Harbor Freight's product page lists 1050 lumens, a 252 ft. range, and 12 W, but it doesn't show this chart or any lux readings. The owner's manual lists voltage, number of LEDs, and wattage, but no beam data.",
@@ -24,18 +38,6 @@
     "Below the chart, the box shows a \"Universal Application\" panel with icons for an SUV, a pickup truck, an ATV, a boat, and a tractor."
   ],
   "specs": [
-    [
-      "Lux at 32 ft (chart)",
-      "15 lx"
-    ],
-    [
-      "Lux at 127 ft (chart)",
-      "1 lx"
-    ],
-    [
-      "Lux at 252 ft (chart)",
-      "0.25 lx"
-    ],
     [
       "Side scale",
       "32 / 65 / 98 ft each side of center"

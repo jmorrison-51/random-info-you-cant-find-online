@@ -17,6 +17,20 @@
     "Beam Patterns",
     "Roadshock"
   ],
+  "beam": [
+    {
+      "distance_ft": 32,
+      "lux": 473
+    },
+    {
+      "distance_ft": 712,
+      "lux": 1
+    },
+    {
+      "distance_ft": 1427,
+      "lux": 0.25
+    }
+  ],
   "summary": "Per-light spot beam pattern and dimensions from the Roadshock 3 in. LED Spot with Side Light box (SKU 57538): 473 lx at 32 ft to 0.25 lx at 1427 ft.",
   "body": [
     "This is the beam pattern chart and dimension drawing printed on the retail box of the Harbor Freight Roadshock 3 in. LED Spot with Side Light, Pair, item 57538. Harbor Freight's product page lists 2090 lumens and a 960 ft. range, but it doesn't show this chart or any lux readings.",
@@ -24,18 +38,6 @@
     "The drawing gives the light's size as 3.81 in. wide, 3.5 in. tall, and 2.89 in. deep. The product page lists the dimensions as 3.79 in. high, 3.21 in. long, and 2.94 in. wide."
   ],
   "specs": [
-    [
-      "Lux at 32 ft (chart, per light)",
-      "473 lx"
-    ],
-    [
-      "Lux at 712 ft (chart)",
-      "1 lx"
-    ],
-    [
-      "Lux at 1427 ft (chart)",
-      "0.25 lx"
-    ],
     [
       "Width (drawing)",
       "3.81 in."

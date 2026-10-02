@@ -17,6 +17,20 @@
     "Beam Patterns",
     "Roadshock"
   ],
+  "beam": [
+    {
+      "distance_ft": 30,
+      "lux": 3200
+    },
+    {
+      "distance_ft": 1860,
+      "lux": 1
+    },
+    {
+      "distance_ft": 3700,
+      "lux": 0.25
+    }
+  ],
   "summary": "Spot beam pattern chart and spec table from the Roadshock Edge 4-LED Off-Road Spotlight box (SKU 59235): 3200 lx at 30 ft, 1 lx at 1860 ft, 0.25 lx at 3700 ft.",
   "body": [
     "This is the spot beam pattern chart and specification table printed on the retail box of the Harbor Freight Roadshock Edge 4-LED Off-Road Spotlight, item 59235. Harbor Freight's product page gives a single figure, 3721 lux at 10 meters, but it doesn't show the beam pattern chart.",
@@ -24,18 +38,6 @@
     "The box lists three light modes: daytime amber running light, low (spot), and high speed spot. It also gives a high beam max. distance of 3700 ft., a low beam max. distance of 1800 ft., and an amp draw at 12 V of 8 A high and 5.5 A low. The box notes that a light harness is required and sold separately."
   ],
   "specs": [
-    [
-      "Lux at 30 ft (chart)",
-      "3200 lx"
-    ],
-    [
-      "Lux at 1860 ft (chart)",
-      "1 lx"
-    ],
-    [
-      "Lux at 3700 ft (chart)",
-      "0.25 lx"
-    ],
     [
       "High beam max. distance",
       "3700 ft."

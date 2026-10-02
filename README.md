@@ -27,6 +27,7 @@ The easiest way is to give Claude the photo(s) along with the brand, product nam
 4. **Fill in every `TODO`** in `content/entries/<slug>.json`. The fields are:
    - `summary`: 1–2 sentences, shown in Google results and on the home page (keep it under about 160 characters)
    - `body`: a few plain-text paragraphs (Google matches images to the text around them)
+   - `beam`: optional, for lights. Add the chart's points, e.g. `[{"distance_ft": 30, "lux": 220}, ...]`. These add a "How bright is that?" box near the top of the page with an everyday comparison for each value (full moon, candle, street light, living room...). The comparison scale is `LUX_SCALE` in `tools/build.py`.
    - `specs`: optional `[["Beam angle", "30°"], ...]` table
    - `transcription` / `transcription_notes`: printed text, copied exactly. Write `[illegible]` rather than guessing.
    - `sources`: official pages you checked, e.g. `{"label": "...", "url": "...", "note": "no beam pattern shown"}`

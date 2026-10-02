@@ -75,6 +75,7 @@ def main() -> None:
         "tags": [t.strip() for t in a.tags.split(",") if t.strip()],
         "summary": "TODO: one or two sentences for search results (under ~160 characters).",
         "body": ["TODO: a few sentences of plain text describing what the photo shows and why it's useful."],
+        "beam": [],
         "specs": [],
         "transcription": "",
         "transcription_notes": "",

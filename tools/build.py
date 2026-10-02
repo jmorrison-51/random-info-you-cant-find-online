@@ -100,6 +100,44 @@ def load_entries() -> list[dict]:
 
 # ---------------------------------------------------------------- entry helpers
 
+# Everyday comparisons for light levels (rough, commonly cited values), brightest first.
+LUX_SCALE = [
+    (10000, "full daylight (not direct sun)"),
+    (1000, "daylight on an overcast day"),
+    (300, "a brightly lit office or store"),
+    (100, "a typical living room at night"),
+    (50, "a dimly lit room"),
+    (10, "a well-lit street at night"),
+    (3, "a dim side street at night"),
+    (1, "deep twilight, or a candle about 3 ft away"),
+    (0.2, "a bright full moon"),
+    (0, "moonlight or less"),
+]
+
+
+def lux_compare(lux: float) -> str:
+    return next(text for floor, text in LUX_SCALE if lux >= floor)
+
+
+def fmt_num(n: float) -> str:
+    return f"{n:,.2f}".rstrip("0").rstrip(".")
+
+
+def brightness(ent: dict) -> str:
+    """'How bright is that?' box for entries with a `beam` list of {distance_ft, lux} points."""
+    if not ent.get("beam"):
+        return ""
+    rows = "".join(
+        f"<tr><td>{fmt_num(p['distance_ft'])} ft</td><td>{fmt_num(p['lux'])} lx</td>"
+        f"<td>{e(lux_compare(p['lux']))}</td></tr>" for p in ent["beam"])
+    return f"""  <section class="brightness" aria-labelledby="bright-h">
+    <h2 id="bright-h">How bright is that?</h2>
+    <table><thead><tr><th scope="col">Distance from light</th><th scope="col">Light level (chart)</th><th scope="col">Roughly as bright as</th></tr></thead>
+    <tbody>{rows}</tbody></table>
+    <p class="note">Lux (lx) is how much light lands on a surface. For reference: full moon about 0.1–0.3 lx, a candle 3 ft away about 1 lx, a lit street 10–20 lx, a living room 50–150 lx, an office 300–500 lx, an overcast day 1,000+ lx. Advertised &ldquo;beam distance&rdquo; is usually measured to 0.25 lx (the ANSI FL1 standard), about full-moon brightness, so treat it as the edge of usable light, not where the beam is still bright.</p>
+  </section>"""
+
+
 def ids_text(ent: dict) -> str:
     return " · ".join(f"{i['label']} {i['value']}" for i in ent.get("ids", []))
 
@@ -218,7 +256,7 @@ class Site:
 
         content = self.entry_tpl.substitute(
             brand=e(ent["brand"]), brand_slug=slugify(ent["brand"]), h1=e(t), meta_line=" · ".join(meta),
-            summary=e(ent["summary"]), figures="\n".join(figures), body=body, specs=specs,
+            summary=e(ent["summary"]), brightness=brightness(ent), figures="\n".join(figures), body=body, specs=specs,
             transcription=transcription, sources=sources, tags=tag_links(ent, "../"),
             published=long_date(ent["published"]),
             updated_note=f" · Updated {long_date(updated)}" if updated != ent["published"] else "",

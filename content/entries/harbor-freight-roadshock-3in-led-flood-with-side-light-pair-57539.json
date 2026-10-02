@@ -1,0 +1,68 @@
+{
+  "brand": "Harbor Freight",
+  "product": "Roadshock 3 in. LED Flood with Side Light, Pair",
+  "ids": [
+    {
+      "label": "SKU",
+      "value": "57539"
+    }
+  ],
+  "shows": "Flood Beam Pattern and Dimensions",
+  "found_on": "Printed on the retail box",
+  "photographed": "2026-10",
+  "published": "2026-10-01",
+  "updated": "2026-10-01",
+  "tags": [
+    "Off-Road Lights",
+    "Beam Patterns",
+    "Roadshock"
+  ],
+  "summary": "Per-light flood beam pattern and dimensions from the Roadshock 3 in. LED Flood with Side Light box (SKU 57539): 81 lx at 32 ft to 0.25 lx at 590 ft.",
+  "body": [
+    "This is the beam pattern chart and dimension drawing printed on the retail box of the Harbor Freight Roadshock 3 in. LED Flood with Side Light, Pair, item 57539. Harbor Freight's product page lists 2120 lumens and a 590 ft. range, but it doesn't show this chart or any lux readings.",
+    "The chart shows the flood beam of one light and notes that the side light beam isn't included. The chart is a top-down view of the beam. The light levels printed along the top line up with the distances printed along the bottom: 81 lx at 32 ft, 1 lx at 295 ft, and 0.25 lx at 590 ft. The side scale is marked 32, 65, and 98 ft to each side of center.",
+    "The drawing gives the light's size as 3.81 wide, 3.5 tall, and 2.89 deep, with no units printed. The matching spot version's box (SKU 57538) shows the same numbers in inches. The product page lists the dimensions as 3.5 in. high, 2.89 in. long, and 4.81 in. wide."
+  ],
+  "specs": [
+    [
+      "Lux at 32 ft (chart, per light)",
+      "81 lx"
+    ],
+    [
+      "Lux at 295 ft (chart)",
+      "1 lx"
+    ],
+    [
+      "Lux at 590 ft (chart)",
+      "0.25 lx"
+    ],
+    [
+      "Width (drawing)",
+      "3.81"
+    ],
+    [
+      "Height (drawing)",
+      "3.5"
+    ],
+    [
+      "Depth (drawing)",
+      "2.89"
+    ]
+  ],
+  "transcription": "FLOOD BEAM PATTERN PER LIGHT          57539\nSide light beam not included in diagram\n81 lx      1 lx      0.25 lx\n32ft       295ft     590ft\n(side scale: 98ft 65ft 32ft 0ft 32ft 65ft 98ft)\n\n(dimension drawing) 3.81 (width)  3.5 (height)  2.89 (depth)",
+  "transcription_notes": "The dimension numbers on this box have no unit marks.",
+  "sources": [
+    {
+      "label": "Harbor Freight product page",
+      "url": "https://www.harborfreight.com/3-in-led-flood-with-side-light-pair-57539.html",
+      "note": "lists 2120 lumens, 590 ft. range, 50 W, 3.5 x 2.89 x 4.81 in.; no beam pattern chart or lux values (checked October 2026)"
+    }
+  ],
+  "images": [
+    {
+      "file": "harbor-freight-roadshock-3in-led-flood-with-side-light-pair-57539-flood-beam-pattern-dimensions.jpg",
+      "alt": "Harbor Freight Roadshock 3 in. LED flood with side light SKU 57539 box showing the per-light flood beam pattern (81 lx at 32 ft, 1 lx at 295 ft, 0.25 lx at 590 ft) and a dimension drawing (3.81 x 3.5 x 2.89)",
+      "caption": "SKU 57539 box: flood beam pattern per light (side light not included) and dimension drawing."
+    }
+  ]
+}

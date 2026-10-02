@@ -1,0 +1,81 @@
+{
+  "brand": "Harbor Freight",
+  "product": "Roadshock 14 in. Spot/Flood Combo LED Light Bar",
+  "ids": [
+    {
+      "label": "SKU",
+      "value": "64321"
+    }
+  ],
+  "shows": "Combo Beam Pattern and Specs",
+  "found_on": "Printed on the retail box",
+  "photographed": "2026-10",
+  "published": "2026-10-01",
+  "updated": "2026-10-01",
+  "tags": [
+    "Off-Road Lights",
+    "Beam Patterns",
+    "Roadshock",
+    "Light Bars"
+  ],
+  "summary": "Combo beam pattern chart and specs from the Roadshock 14 in. light bar box (SKU 64321): 360 lx at 30 ft, 1 lx at 600 ft, 0.25 lx at 1000 ft.",
+  "body": [
+    "This is the beam pattern chart printed on the retail box of the Harbor Freight Roadshock 14 in. Spot/Flood Combo LED Light Bar, item 64321. Harbor Freight's product page lists the lumens and the 1115 ft. range, but it doesn't show this chart or any lux readings.",
+    "The chart is a top-down view of the beam. The light levels printed along the top line up with the distances printed along the bottom: 360 lx at 30 ft, 1 lx at 600 ft, and 0.25 lx at 1000 ft. The side scale runs 90 ft to each side of center. The combo pattern is wide close to the light and narrows into a long spot beam.",
+    "The box also lists lumens, beam distance, color temperature, voltage, and wattage (below). Those match the product page."
+  ],
+  "specs": [
+    [
+      "Lux at 30 ft (chart)",
+      "360 lx"
+    ],
+    [
+      "Lux at 600 ft (chart)",
+      "1 lx"
+    ],
+    [
+      "Lux at 1000 ft (chart)",
+      "0.25 lx"
+    ],
+    [
+      "Lumens",
+      "3000"
+    ],
+    [
+      "Beam distance",
+      "1115 ft."
+    ],
+    [
+      "Color temperature",
+      "6250K"
+    ],
+    [
+      "DC volts",
+      "12/24"
+    ],
+    [
+      "Wattage",
+      "47"
+    ],
+    [
+      "UPC (barcode on box)",
+      "1 93175 56355 2"
+    ]
+  ],
+  "transcription": "COMBO BEAM PATTERN\n360 lx      1 lx      0.25 lx\n30ft        600ft     1000ft\n(side scale: 90ft 60ft 30ft 0ft 30ft 60ft 90ft)\n\nSPECIFICATIONS\nLumens: 3000\nBeam Distance: 1115 ft.\nColor Temperature: 6250K\nDC Volts: 12/24\nWattage: 47\nFOR OFF-ROAD USE ONLY\n\nITEM 64321",
+  "transcription_notes": "The first digit of \"360 lx\" is partly covered by clear tape on the box. It appears to read 360. A small round sticker unrelated to the product was blurred in the photo.",
+  "sources": [
+    {
+      "label": "Harbor Freight product page",
+      "url": "https://www.harborfreight.com/14-in-spotflood-combo-led-light-bar-64321.html",
+      "note": "lists 3000 lumens, 1115 ft. range, 47 W; no beam pattern chart or lux values (checked October 2026)"
+    }
+  ],
+  "images": [
+    {
+      "file": "harbor-freight-roadshock-14in-spot-flood-combo-led-light-bar-64321-combo-beam-pattern-specs.jpg",
+      "alt": "Harbor Freight Roadshock 14 in. combo LED light bar SKU 64321 box showing the combo beam pattern chart (360 lx at 30 ft, 1 lx at 600 ft, 0.25 lx at 1000 ft) and specifications",
+      "caption": "Back of the SKU 64321 box: combo beam pattern chart and specifications (3000 lumens, 1115 ft., 47 W)."
+    }
+  ]
+}

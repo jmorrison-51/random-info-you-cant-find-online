@@ -1,0 +1,92 @@
+{
+  "brand": "Harbor Freight",
+  "product": "Roadshock Edge 4-LED Off-Road Spotlight",
+  "ids": [
+    {
+      "label": "SKU",
+      "value": "59235"
+    }
+  ],
+  "shows": "Spot Beam Pattern and Specs",
+  "found_on": "Printed on the retail box",
+  "photographed": "2026-10",
+  "published": "2026-10-01",
+  "updated": "2026-10-01",
+  "tags": [
+    "Off-Road Lights",
+    "Beam Patterns",
+    "Roadshock"
+  ],
+  "summary": "Spot beam pattern chart and spec table from the Roadshock Edge 4-LED Off-Road Spotlight box (SKU 59235): 3200 lx at 30 ft, 1 lx at 1860 ft, 0.25 lx at 3700 ft.",
+  "body": [
+    "This is the spot beam pattern chart and specification table printed on the retail box of the Harbor Freight Roadshock Edge 4-LED Off-Road Spotlight, item 59235. Harbor Freight's product page gives a single figure, 3721 lux at 10 meters, but it doesn't show the beam pattern chart.",
+    "The chart is a top-down view of the beam. The light levels printed along the top line up with the distances printed along the bottom: 3200 lx at 30 ft, 1 lx at 1860 ft, and 0.25 lx at 3700 ft. The side scale runs 150 ft to each side of center. The pattern is very wide right in front of the light and then narrows into a long, thin spot beam.",
+    "The box lists three light modes: daytime amber running light, low (spot), and high speed spot. It also gives a high beam max. distance of 3700 ft., a low beam max. distance of 1800 ft., and an amp draw at 12 V of 8 A high and 5.5 A low. The box notes that a light harness is required and sold separately."
+  ],
+  "specs": [
+    [
+      "Lux at 30 ft (chart)",
+      "3200 lx"
+    ],
+    [
+      "Lux at 1860 ft (chart)",
+      "1 lx"
+    ],
+    [
+      "Lux at 3700 ft (chart)",
+      "0.25 lx"
+    ],
+    [
+      "High beam max. distance",
+      "3700 ft."
+    ],
+    [
+      "Low beam max. distance",
+      "1800 ft."
+    ],
+    [
+      "Terminal connector",
+      "Bulkhead mount, Deutsch-style 4-pin (printed \"Deutch\")"
+    ],
+    [
+      "Average LED life",
+      "50,000 hr."
+    ],
+    [
+      "Housing",
+      "Black, die cast aluminum"
+    ],
+    [
+      "Lens",
+      "Hard coated polycarbonate"
+    ],
+    [
+      "Bezel",
+      "Die cast aluminum"
+    ],
+    [
+      "Mounting hardware",
+      "Included, stainless steel"
+    ],
+    [
+      "Amp draw at 12 V",
+      "8 A high / 5.5 A low"
+    ]
+  ],
+  "transcription": "ROADSHOCK 4 LED SPOT LIGHT  EDGE\n\nSPOT BEAM PATTERN\n3 LIGHT MODES\n- Daytime Amber Running Light\n- Low (Spot)\n- High Speed Spot\n\nSPECIFICATIONS\nHIGH BEAM MAX. DISTANCE          3700 ft.\nLOW BEAM MAX. DISTANCE           1800 ft.\nTERMINAL CONNECTOR               Bulkhead Mount Deutch style, 4 PIN\nAVERAGE LED LIFE EXPECTANCY (HR.) 50,000\nHOUSING COLOR                    Black\nHOUSING MATERIAL                 Die Cast Aluminum\nLENS MATERIAL                    Hard Coated Polycarbonate\nBEZEL MATERIAL                   Die Cast Aluminum\nMOUNTING HARDWARE INCLUDED       Yes\nMOUNTING HARDWARE MATERIAL       Stainless Steel\nAMP DRAW AT 12V                  8A High / 5.5A Low\n\n3200 lx      1 lx      0.25 lx\n30ft         1860ft    3700ft\n(side scale: 150ft 120ft 90ft 60ft 30ft 0ft 30ft 60ft 90ft 120ft 150ft)\n\nLIGHT HARNESS REQUIRED: SOLD SEPARATELY\nFor off-road use only.   59235",
+  "transcription_notes": "\"Deutch\" is spelled that way on the box (the connector style is usually written Deutsch). A line of marketing copy is left out.",
+  "sources": [
+    {
+      "label": "Harbor Freight product page",
+      "url": "https://www.harborfreight.com/4-led-off-road-spotlight-59235.html",
+      "note": "lists 5400 lumens, 3721 lux at 10 meters, 1800 ft. (low) to 3700 ft. (high) range; no beam pattern chart (checked October 2026)"
+    }
+  ],
+  "images": [
+    {
+      "file": "harbor-freight-roadshock-edge-4-led-off-road-spotlight-59235-spot-beam-pattern-specs.jpg",
+      "alt": "Harbor Freight Roadshock Edge 4-LED off-road spotlight SKU 59235 box showing the specification table and spot beam pattern chart: 3200 lx at 30 ft, 1 lx at 1860 ft, 0.25 lx at 3700 ft",
+      "caption": "Back of the SKU 59235 box: light modes, specification table, and spot beam pattern chart (3200 lx at 30 ft to 0.25 lx at 3700 ft)."
+    }
+  ]
+}

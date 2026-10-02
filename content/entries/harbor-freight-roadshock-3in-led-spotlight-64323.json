@@ -1,0 +1,80 @@
+{
+  "brand": "Harbor Freight",
+  "product": "Roadshock 3 in. LED Spotlight",
+  "ids": [
+    {
+      "label": "SKU",
+      "value": "64323"
+    }
+  ],
+  "shows": "Spot Beam Pattern and Specs",
+  "found_on": "Printed on the retail box",
+  "photographed": "2026-10",
+  "published": "2026-10-01",
+  "updated": "2026-10-01",
+  "tags": [
+    "Off-Road Lights",
+    "Beam Patterns",
+    "Roadshock"
+  ],
+  "summary": "Spot beam pattern chart, specs, and dimensions from the Roadshock 3 in. LED Spotlight box (SKU 64323): 220 lx at 30 ft, 1 lx at 480 ft, 0.25 lx at 970 ft.",
+  "body": [
+    "This is the spot beam pattern chart printed on the retail box of the Harbor Freight Roadshock 3 in. LED Spotlight, item 64323. Harbor Freight's product page lists 1050 lumens and a 960 ft. range, but it doesn't show this chart or any lux readings, and neither does the downloadable manual.",
+    "The chart is a top-down view of the beam. The light levels printed along the top line up with the distances printed along the bottom: 220 lx at 30 ft, 1 lx at 480 ft, and 0.25 lx at 970 ft. The side scale runs 90 ft to each side of center. The beam is long and narrow, staying within about 30 ft of center.",
+    "The dimension drawing shows a 3 in. wide, 3 in. deep housing that is 3 in. tall, or 3.5 in. including the mounting bracket. The box lists the wattage as 15, while the product page lists 15.1."
+  ],
+  "specs": [
+    [
+      "Lux at 30 ft (chart)",
+      "220 lx"
+    ],
+    [
+      "Lux at 480 ft (chart)",
+      "1 lx"
+    ],
+    [
+      "Lux at 970 ft (chart)",
+      "0.25 lx"
+    ],
+    [
+      "Lumens",
+      "1050"
+    ],
+    [
+      "Beam distance",
+      "960 ft."
+    ],
+    [
+      "Color temperature",
+      "6250K"
+    ],
+    [
+      "DC volts",
+      "12/24"
+    ],
+    [
+      "Wattage",
+      "15 (product page: 15.1)"
+    ],
+    [
+      "Dimensions (drawing)",
+      "3 in. W x 3 in. D x 3 in. H (3.5 in. with bracket)"
+    ]
+  ],
+  "transcription": "(dimension drawing) 3\" (width)  3\" (depth)  3\" / 3.5\" (height)\n\nSPOT BEAM PATTERN\n220 lx      1 lx      0.25 lx\n30ft        480ft     970ft\n(side scale: 90ft 60ft 30ft 0ft 30ft 60ft 90ft)\n\nSPECIFICATIONS\nLumens: 1050\nBeam Distance: 960 ft.\nColor Temperature: 6250K\nDC Volts: 12/24\nWattage: 15\nOFF ROAD USE ONLY",
+  "transcription_notes": "The item number at the bottom right is cut off in the photo (\"6432...\"). The printed specs match Harbor Freight's listing for item 64323.",
+  "sources": [
+    {
+      "label": "Harbor Freight product page",
+      "url": "https://www.harborfreight.com/3-in-led-spotlight-64323.html",
+      "note": "lists 1050 lumens, 960 ft. range, 15.1 W; no beam pattern chart or lux values (checked October 2026)"
+    }
+  ],
+  "images": [
+    {
+      "file": "harbor-freight-roadshock-3in-led-spotlight-64323-spot-beam-pattern-specs.jpg",
+      "alt": "Harbor Freight Roadshock 3 in. LED spotlight SKU 64323 box showing a dimension drawing, the spot beam pattern chart (220 lx at 30 ft, 1 lx at 480 ft, 0.25 lx at 970 ft), and specifications",
+      "caption": "SKU 64323 box: dimension drawing, spot beam pattern chart, and specifications (1050 lumens, 960 ft., 15 W)."
+    }
+  ]
+}
